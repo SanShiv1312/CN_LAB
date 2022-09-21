@@ -1,4 +1,4 @@
-**1.print ip address**
+**`1.print ip address`**
 
 Algorithm:
 1.import all packages 
@@ -7,7 +7,7 @@ Algorithm:
 4.get ip address of system using GETLOCALHOST() method
 4.print ip address
 
-**2.creation of date and time server**
+**`2.creation of date and time server`**
 Algorithm:
 1.server:
 1.create instances of socket and server socket class 
@@ -21,7 +21,7 @@ Algorithm:
 3.read the date object
 4.print the obtained data
 
-**3.printing client address at server side**
+**`3.printing client address at server side`**
 Algorithm:
 Server:
 1. Import all the required io and net packages
@@ -43,7 +43,7 @@ getOutputStream() method.
 7. Write the IP address into the socket
 8. If any exception arise, print the error.
 
-**4.Creation of UDP server**
+**`4.Creation of UDP server`**
 Algorithm:
 SERVER:
 1.Create a new Datagram Socket.
@@ -64,7 +64,7 @@ CLIENT:
 6.send to server
 7.Stop the program. 
 
-**5. Creation of a Simple Chat Program**
+**`5. Creation of a Simple Chat Program`**
 Algorithm:
 server:
 Create a new ServerThread using socket.
@@ -77,7 +77,7 @@ Create a getter for the PrintWriter
 Initialize the PrintWriter in run with the socket's output stream, and the BufferedReader with a new InputStreamReader using the socket's input stream
 Create a while loop in run that checks for any new input and prints the input to all clients using the list of ClientThreads and the getter for the PrintWriter
 
-**DaemonThread**
+**`DaemonThread`**
 1. Declare DaemonThread class which extends Thread class.
 2. Creating instances and passing string to the Daemon Thread constructor.
 3. By using super() method in constructor, we are invoking the Thread() method
@@ -89,7 +89,7 @@ otherwise it set to User Thread.
 6. Print the output.
 
 
-**7. http**
+**`7. http`**
 Client.
 Algorithm:
 STEP 1: Create the URL with Http URL Connections
@@ -97,7 +97,7 @@ STEP 2: Define the Http Protocol for Client Connections.
 STEP3: Get the Http Connection. STEP4:Print the URL for the Client.
 
 
-**8.file transfer**
+**`8.file transfer`**
 
 Implement FTP using TCP
 Algorithm
@@ -123,7 +123,7 @@ Algorithm – Server
 6. Repeatedly read the file content line by line and send to the client through the socket S.
 7. Close the socket stream, BufferedReader.
 
-**9.traceroute command:**
+**`9.traceroute command:`**
 1. Start the program.
 2. Get the frame size from the user.
 3. Create the frames.
@@ -133,7 +133,7 @@ will send NACK(Negative ACK) signal to client.
 6. Stop the program.
 
 
-**10. ping command**
+**`10. ping command`**
 1. Start the program.
 2. Define method runSystemCommand with one argument.
 3. Create the sub process, execute system command.
